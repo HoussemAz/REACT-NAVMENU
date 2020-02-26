@@ -1,0 +1,36 @@
+.big-list{
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+    border-bottom: solid blue;
+position: relative;
+width: 50%;
+left: 25%;
+  
+}
+.big-list li{ 
+    list-style: none; 
+    padding: 10px
+}
+ .nano-list{   
+    display:none;
+    font-size: 15px;
+    position: absolute;
+right: 250px;
+   
+top:47px
+}
+.big-list li:hover .nano-list{
+    display:block ;
+   
+}
+.big-list li:hover {
+    color: blue
+}
+.new-list ul{
+ border: solid blue;
+}
+.down-list{
+   color:black
+}
+    
